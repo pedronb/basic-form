@@ -1,6 +1,7 @@
 import { VStack, Heading, Center } from "native-base";
 import React from "react";
 import { Input } from "../components/Input";
+import { Button } from "../components/Button";
 
 export const SignUp: React.FC = () => {
   return (
@@ -12,6 +13,8 @@ export const SignUp: React.FC = () => {
         <Input placeholder="E-mail" />
         <Input placeholder="Senha" />
         <Input placeholder="Confirme a senha" />
+
+        <Button title="Cadastrar" />
       </Center>
     </VStack>
   );
